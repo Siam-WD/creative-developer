@@ -25,6 +25,7 @@ header{
     color: #151414;
 }
 .btn-primary{
+    font-size: 20px;
     background: #F15B22;
     color: #FFFFFF;
     width: 160px;
@@ -44,7 +45,7 @@ header{
     color: #151414;
 }
 .failure-content{
-    padding: 100px 400px 100px 100px;
+    padding: 100px 350px 100px 130px;
 }
 .failure-container .description{
     padding:0 200px 10px 0;
@@ -57,7 +58,7 @@ header{
 }          
 /* our plans section */
 .our-plans{
-    padding: 0 230px;
+    padding: 0  230px 30px 230px;
     text-align: center;
 }
 .plans-container{
@@ -68,4 +69,83 @@ header{
 }
 .plan-sub-title{
     font-size: 40px;
+}
+/* call now section  */
+.call-now{
+    background: url('../images/watch.png'), url('../images/gradient3.png');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    padding: 130px 230px;
+}
+.call-now-container{
+    margin: 45px 64px;
+}
+.call-now .title{
+    padding-right: 500px;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.call-now .btn-primary{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+}
+/* footer  */
+footer{
+    background-color: #151414;
+    width: 1150px;
+    height: 300px;
+    display: flex;
+    padding: 130px 230px;
+    gap:30px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.footer-description{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.footer-description{
+    margin-top: 10px;
+    padding-right: 100px;
+}
+.contact-address{
+   padding-right: 100px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+}
+.subscribe{
+    padding: 0 100px;
+}
+.subscribe-title{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#subscribe-email{
+    background-color: #151414;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px 150px 20px 20px;
+}
+.subscribe .btn-primary{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.footer-icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
 }
