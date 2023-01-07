@@ -16,7 +16,7 @@ header{
 }
 .header-section{
    text-align: right;
-   padding: 230px 200px 100px 800px;
+   padding: 230px 230px 100px 800px;
 }
 .header-section .title{
     font-weight: 700;
@@ -33,11 +33,11 @@ header{
     width: 160px;
     height: 64px;
     border: 0;
-    margin: 20px;
 }
 /* My failures of previous year */
 .failure-container{
-    margin-top: 100px;
+    width: 1600px;
+    margin: 100px 230px;
     display: flex;
 }
 .title-primary{
@@ -46,19 +46,15 @@ header{
     font-size: 60px;
     color: #151414;
 }
+.failure-container .title-primary{
+    padding: 0 0 40px 0;
+}
 .failure-content{
-    height: 700px;
-    width: 900px;
-    padding: 200px 300px 100px 130px;
-}
-.failure-container .title{
-    padding:0;
-}
-.failure-container .description{
-    padding:0 200px 10px 0;
+    padding:100px 100px 0 0;
+    margin: 100px 100px 100px 130px;
 }
 .failure-ul{
-    padding-left: 30px ;
+    padding:30px 0 0 30px ;
     list-style-image: url('../images/icons/check1.png');
 }
 .failure-li{
@@ -105,7 +101,9 @@ header{
     color: #F15B22;
     background-color: #FFFFFF;
     font-size: 20px;
-    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
 /* footer  */
 footer{
@@ -135,7 +133,7 @@ footer{
     color: #FFFFFF;
 }
 .subscribe{
-    padding: 0 100px;
+    padding: 0 10px 0 150px;
 }
 .subscribe-title{
     font-size: 30px;
@@ -145,13 +143,12 @@ footer{
     background-color: #151414;
     border: 2px solid white;
     border-radius: 8px;
-    padding: 20px 150px 20px 20px;
+    padding: 20px 240px 20px 20px;
 }
 .subscribe .btn-primary{
     color: #F15B22;
     background-color: #FFFFFF;
     font-size: 20px;
-    margin: 0;
     margin-top: 20px;
     padding: 10px;
     border-radius: 8px;
