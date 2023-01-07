@@ -37,7 +37,7 @@ header{
 /* My failures of previous year */
 .failure-container{
     width: 1600px;
-    margin: 100px 230px;
+    margin: 100px 200px;
     display: flex;
 }
 .title-primary{
@@ -49,6 +49,10 @@ header{
 .failure-container .title-primary{
     padding: 0 0 40px 0;
 }
+.failure-container .description{
+    margin: 0 250px 0 0;
+}
+
 .failure-content{
     padding:100px 100px 0 0;
     margin: 100px 100px 100px 130px;
